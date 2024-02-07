@@ -1,0 +1,21 @@
+{
+    "name": "solid-refresh-webpack-test",
+    "type": "module",
+    "devDependencies": {
+        "@babel/preset-typescript": "7.23.3",
+        "babel-loader": "9.1.3",
+        "babel-preset-solid": "1.8.12",
+        "html-webpack-plugin": "5.6.0",
+        "solid-refresh": "0.7.0",
+        "typescript": "5.3.3",
+        "webpack": "5.90.1",
+        "webpack-cli": "5.1.4",
+        "webpack-dev-server": "4.15.1"
+    },
+    "dependencies": {
+        "solid-js": "1.8.14"
+    },
+    "scripts": {
+        "start": "webpack serve"
+    }
+}
